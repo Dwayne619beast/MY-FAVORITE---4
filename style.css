@@ -1,0 +1,63 @@
+body {
+    text-allign: center;
+    background: #fc0303;
+}
+
+h1 {
+    text-shadow: 2px 2px #050000;
+    font-size: 20px;
+}
+
+.bio {
+    padding: 20px;
+    font-size: 18px;
+    text-allign: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 400px;
+    text allign: center;
+}
+
+.menu {
+
+    list-style: none;
+    font-family: font-family: 'Chilanka', cursive;
+    ;
+    float: right;
+    top: 10px;
+    right: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: blue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: inherit;
+}
+img {
+    transition: transform .2s
+}
+
+img:hover {
+    transform: scale(1.5)
+}
